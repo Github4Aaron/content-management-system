@@ -9,6 +9,7 @@ class DemoController < ApplicationController
   # Short Version ->   render('demo/hello')   
   # Shortest Version -> render('hello')  
   def hello
+    @array = [1, 2, 3, 4]
   end
   
   #re-directs send request to a different controller/action...
