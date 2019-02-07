@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   #match route
   get 'demo/index' 
   get 'demo/hello'
+  get 'demo/other_hello'
+  get 'demo/lynda'
  
   #default route
   #get ':controller(/:action(/:id))'
