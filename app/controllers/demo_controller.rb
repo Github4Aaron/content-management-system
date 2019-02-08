@@ -10,6 +10,8 @@ class DemoController < ApplicationController
   # Shortest Version -> render('hello')  
   def hello
     @array = [1, 2, 3, 4]
+    @id = params['id']
+    @page = params[:page]
   end
   
   #re-directs send request to a different controller/action...

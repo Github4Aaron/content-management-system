@@ -10,5 +10,10 @@ Rails.application.routes.draw do
  
   #default route
   #get ':controller(/:action(/:id))'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  ## WITH PARAMETERS
+  # Simple match route url: http://localhost:3000/demo/hello?id=20&page=5
+  # Default route url: http://localhost:3000/demo/hello/20?page=5
+
+
 end
